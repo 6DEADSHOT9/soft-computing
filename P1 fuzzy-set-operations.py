@@ -105,6 +105,8 @@ def main():
         print("5.Cartesian Product")
         print("6.EXIT")
         choice = int(input("Enter your choice: "))
+        A = {"a": 0.2, "b": 0.3, "c": 0.6, "d": 0.6}
+        B = {"a": 0.9, "b": 0.9, "c": 0.4, "d": 0.5}
         
         if choice == 1:
             union(A,B)
